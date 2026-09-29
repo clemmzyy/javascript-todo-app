@@ -77,9 +77,13 @@ body {
     gap: 6px;
 }
 
-#todo_list .item button {
+#todo_list .item .edit {
     border: none;
     padding: 5px 10px;
     color: rgb(255, 250, 250);
     background-color: black;
+}
+
+.delete{
+    background: red;
 }
