@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(127, 125, 129);
+    padding-top: 100px;
+    color: azure;
+
+}
+
+.app {
+    width: 300px;
+}
+
+.form {
+    padding: 20px 20px;
+    background: blueviolet;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+}
+
+
+.form input {
+    padding: 10px 10px;
+    outline: none;
+    color: blueviolet;
+    border: 3px solid black;
+}
+
+
+.form button {
+    border: none;
+    padding: 7px 7px;
+    background: black;
+    color: white;
+}
+
+#todo_list {
+    background-color: blueviolet;
+    padding: 20px 20px;
+    margin-top: 2px;
+    color: rgb(238, 238, 239);
+    border: 2px solid black;
+    width: 100%;
+
+
+
+
+}
+
+#todo_list .item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 250, 250);
+}
+
+#todo_list .item p {
+    font-weight: bold;
+    color: black;
+}
+
+
+#todo_list .item .btns {
+    display: flex;
+    gap: 6px;
+}
+
+#todo_list .item button {
+    border: none;
+    padding: 5px 10px;
+    color: rgb(255, 250, 250);
+    background-color: black;
+}
